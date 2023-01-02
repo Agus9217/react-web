@@ -1,15 +1,15 @@
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Navbar';
-// import Sidebar from './components/Sidebar';
+import Home from './pages';
 
 function App() {
   return (
     <BrowserRouter>
-      <Sidebar />
-      <Navbar />
+      <Home />
     </BrowserRouter>
   );
 }
 
 export default App;
+
+
